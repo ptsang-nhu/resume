@@ -1,0 +1,145 @@
+% -------------- Resume ---------------
+\documentclass{resume}
+
+\begin{document}
+
+% --------- Contact Information -----------
+\introduction[
+    fullname={Phan Thanh Sang},
+    email={ptsang.hcmus@gmail.com},
+    phone={},
+    linkedin={linkedin.com/in/ptsang-hcmus},
+    github={github.com/ptsang-nhu}
+]
+
+% --------- Summary -----------
+\summary{Senior Frontend Engineer with over 4 years of experience building scalable, high-performance web applications using React and TypeScript. Proficient in leveraging modern frontend tools, algorithms, and data structures to deliver efficient, robust solutions. Experienced in leading technical migrations, optimizing performance, and mentoring teams. Committed to writing clean, maintainable code and driving technical excellence through collaboration.}
+
+% --------- Skills -----------
+\begin{skillsSection}{Technical Skills}
+    \skillItem[
+        category={Languages \& Frameworks},
+        skills={JavaScript, TypeScript, Java, React, HTML, CSS, Python, NextJS, TailwindCSS, Vite}
+    ] \\
+    \skillItem[
+        category={Tools \& Technologies},
+        skills={Cursor (AI Editor), Git, GitLab CI/CD, VS Code, Jira, Shopee Cloud Platform}
+    ]
+\end{skillsSection}
+
+% --------- Experience -----------
+\begin{experienceSection}{Professional Experience}
+    \experienceItem[
+        company={Sea Limited},
+        location={Singapore},
+        position={Senior Frontend Engineer},
+        duration={Jan 2024 – Present}
+    ]
+    \begin{itemize}
+        \itemsep -6pt {}
+        \item \textbf{Leverage AI} to increase translator efficiency by allowing users to translate single or batches with AI models
+        \item Developed and maintained a website to process and track assets for the company to improve agents' efficiency in helping people with asset-related problems
+        \item Developed and maintained a website to showcase AI progress at Sea AI Lab, enhancing SEO and enabling high-quality, easy-to-edit LaTeX display for math equations instead of static images
+        \item Conducted \textbf{10+ technical interviews} to identify and recruit valuable new team members
+        \item \textbf{Mentored} new team members to familiarize with team culture and contribute to projects
+    \end{itemize}
+
+    \experienceItem[
+        company={Sea Limited},
+        location={Singapore},
+        position={Frontend Engineer},
+        duration={Aug 2021 – Dec 2023}
+    ]
+    \begin{itemize}
+        \itemsep -6pt {}
+        \item \textbf{Achieved 99\%} codebase migration from JavaScript to TypeScript, significantly increasing maintainability and proactively catching issues before they occur
+        \item \textbf{Initiated} and led the idea for an email template management project, working cross-functionally with product managers, designers, backend engineers, and QA to prototype, develop, and launch it for all team projects
+        \item Worked closely with the team to enhance and maintain an internal component library of \textbf{70+ components} by identifying issues and submitting merge requests
+        \item Shared cool new tech, tools, and discoveries with the team in regular sessions, helping everyone stay in the loop and get things done faster
+        \item Improved website performance and accessibility by implementing server-side rendering and boosting Lighthouse scores
+        \item Technologies: TypeScript/JavaScript, ReactJS, Vite
+    \end{itemize}
+
+    \experienceItem[
+        company={Viettel Business Solutions},
+        location={Ho Chi Minh City, Vietnam},
+        position={Software Engineer},
+        duration={Jul 2020 – May 2021}
+    ]
+    \begin{itemize}
+        \itemsep -6pt {}
+        \item Made test APIs easier by integrating Swagger-UI into the project and developing testing APIs
+        \item Made sync data \textbf{10 times faster} by utilizing thread pool optimization techniques
+        \item Developed SOAP APIs using Java to synchronize DMS data with customer's ERP from SAP
+        \item Set up SOAP API jobs to synchronize DMS data with customer Oracle ERP systems
+        \item Designed and implemented interfaces to generate and export distributor sales reports for each promotion cycle
+        \item Technologies: Java, Oracle Database, JavaScript
+    \end{itemize}
+
+\end{experienceSection}
+
+% --------- Projects -----------
+\begin{experienceSection}{Projects}
+    \projectItem[
+        title={Personal Portfolio Website},
+        duration={Mar 2024},
+        keyHighlight={A responsive website showcasing personal information and updated resume with modern UI/UX design.},
+        link={\textbullet{} at \href{https://ptsang.vercel.app}{\textit{ptsang.vercel.app}}}
+    ]
+    \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        \item Built using modern web technologies with focus on performance and user experience
+    \end{itemize}
+
+    \projectItem[
+        title={Pathfinding Visualizer},
+        duration={Aug 2023},
+        keyHighlight={Interactive web application to visualize pathfinding algorithms including A*, Dijkstra, BFS, and DFS.},
+        link={\textbullet{} at \href{https://ptsang-path-finding.vercel.app}{\textit{ptsang-path-finding.vercel.app}}}
+    ]
+    \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        \item Implemented drag and drop functionality for start point and endpoint to recompute paths in real-time
+    \end{itemize}
+
+    \projectItem[
+        title={Conway's Game of Life},
+        duration={Aug 2023},
+        keyHighlight={Web-based simulation of Conway's Game of Life cellular automaton with interactive controls.},
+        link={\textbullet{} at \href{https://ptsang-game-of-life.vercel.app}{\textit{ptsang-game-of-life.vercel.app}}}
+    ]
+    \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        \item Implemented efficient rendering and user interaction for cellular automaton simulation
+    \end{itemize}
+
+    \projectItem[
+        title={Time Attendance System with Face Recognition},
+        duration={Nov 2019 – Apr 2020},
+        keyHighlight={Full-stack web application for employee attendance tracking using facial recognition technology.}
+    ]
+    \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        \item Implemented all features: RBAC, face registration, check-in/check-out, and comprehensive reporting
+        \item Built using JavaScript, MySQL, ReactJS, and NodeJS with face recognition capabilities
+        \item Enabled employees to check in and out from work using face recognition and extract data to files
+    \end{itemize}
+\end{experienceSection}
+
+% --------- Education ---------
+\begin{educationSection}{Education}
+    \educationItem[
+        university={VNU - HCM University of Science},
+        college={},
+        graduation={Jun 2020},
+        grade={},
+        program={Bachelor of Science, Information Systems},
+        coursework={},
+    ]
+\end{educationSection}
+
+\end{document}

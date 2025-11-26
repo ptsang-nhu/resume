@@ -12,7 +12,7 @@
 
 ## 🚀 Summary
 
-Senior Frontend Engineer with over 4 years of experience building scalable, high-performance web applications using React and TypeScript. Proficient in leveraging modern frontend tools, algorithms, and data structures to deliver efficient, robust solutions. Experienced in leading technical migrations, optimizing performance, and mentoring teams. Committed to writing clean, maintainable code and driving technical excellence through collaboration.
+Senior Frontend Engineer with over 4 years of experience building scalable, high-performance web applications using React and TypeScript. Proficient in leveraging modern frontend tools, algorithms, and data structures to deliver efficient, robust solutions. Experienced in leading technical migrations, optimizing performance, and mentoring teammates. Committed to writing clean, maintainable code and driving technical excellence through collaboration.
 
 ## 🛠️ Technical Skills
 
